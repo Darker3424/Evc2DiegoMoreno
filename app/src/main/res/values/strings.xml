@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">DMEvc2</string>
-    <string name="MAPS_API_KEY">AIzaSyDNGy83oV7esnS1LDg1zWP4iLGRz-nwB6c</string>
+    <string name="MAPS_API_KEY" translatable="false">AIzaSyDNGy83oV7esnS1LDg1zWP4iLGRz-nwB6c</string>
 </resources>

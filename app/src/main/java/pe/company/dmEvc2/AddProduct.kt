@@ -34,13 +34,10 @@ class AddProduct : AppCompatActivity() {
                 binding.imgProductPhoto.setImageBitmap(photoBitmap)
             }
         }
+
         binding.btnAddAddress.setOnClickListener {
-            val mapsUri = Uri.parse("geo:0,0?q=-12.1558234,-76.9776201")
-            val intent = Intent(Intent.ACTION_VIEW, mapsUri)
-            intent.setPackage("com.google.android.apps.maps")
-            intent.resolveActivity(packageManager).let {
-                startActivity(intent)
-            }
+            val intent = Intent(this, AddAddressActivity::class.java)
+            startActivity(intent)
         }
 
     }

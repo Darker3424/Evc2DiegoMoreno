@@ -22,17 +22,6 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_register_product"
-        android:layout_width="match_parent"
-        android:layout_marginBottom="24dp"
-        android:layout_marginHorizontal="24dp"
-        android:layout_height="wrap_content"
-        android:text="Register Product"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/btn_take_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,16 +45,15 @@
 
     <ImageView
         android:id="@+id/img_product_photo"
-        android:contentDescription="@null"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="24dp"
         android:layout_marginVertical="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_register_product"
+        android:background="?attr/colorOnPrimarySurface"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_take_photo"
-        tools:srcCompat="@tools:sample/backgrounds/scenic"
-        android:background="?attr/colorOnPrimarySurface"/>
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
